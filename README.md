@@ -7,7 +7,6 @@
 | [✅] [_printf.c](./printf.c)                   | Entry point.                                            |
 | [✅] [_putchar.c](./_putchar.c)                | Implementation of the `putchar`.                        |
 | [✅] [main.h](./main.h)                        | Header file containing all prototypes for `_printf`.    |
-| [✅] [man_3_printf](./man_3_printf)            | The man page for  `_printf`.                            |
 | [✅] [printf_binary.c](./printf_binary.c)      | prints binary represetation using `%b`.                 |
 | [✅] [printf_char.c](./printf_char.c)          | prints a single character using `%c`.                   |
 | [✅] [printf_hex.c](./printf_hex.c)            | prints hexadecimal represetation using `%x` and `%X`.   |
