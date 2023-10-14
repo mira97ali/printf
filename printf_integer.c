@@ -1,45 +1,44 @@
 #include "main.h"
 
 /**
- * printf_integer - prints integer
- * @args: number arguements
- * @printed: the characters
- * Return: printed charcaters
+ * print_int - Print int
+ * @types: Lista of arguments
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
+ * @width: get width.
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Number of chars printed
  */
-
-int printf_integer(va_list args, int printed)
+int print_int(va_list types, char buffer[],
+	int flags, int width, int precision, int size)
 {
-	int num = va_arg(args, int);
-	int digits = 0;
-	int temp = num;
-	int digit;
+	int i = BUFF_SIZE - 2;
+	int is_negative = 0;
+	long int n = va_arg(types, long int);
+	unsigned long int num;
 
-	if (num < 0)
+	n = convert_size_number(n, size);
+
+	if (n == 0)
+		buffer[i--] = '0';
+
+	buffer[BUFF_SIZE - 1] = '\0';
+	num = (unsigned long int)n;
+
+	if (n < 0)
 	{
-		printed += _putchar('-');
-		num = -num;
-
-		temp = num;
+		num = (unsigned long int)((-1) * n);
+		is_negative = 1;
 	}
 
-	do {
-		digits++;
-		temp /= 10;
-	} while (temp != 0);
-
-	while (digits > 0)
+	while (num > 0)
 	{
-		int pow10 = 1;
-		int i;
-
-		for (i = 1; i < digits; i++)
-		{
-			pow10 *= 10;
-		}
-		digit = num / pow10;
-		printed += _putchar(digit + '0');
-		num -= digit * pow10;
-		digits--;
+		buffer[i--] = (num % 10) + '0';
+		num /= 10;
 	}
-	return (printed);
+
+	i++;
+
+	return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
