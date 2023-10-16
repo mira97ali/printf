@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_hexadecimal - Prints an unsigned number in hexadecimal notation
  * @types: Lista of arguments
