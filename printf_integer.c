@@ -4,7 +4,7 @@
  * print_int - Print integer
  * @types: Lists of arguments
  * @buffer: Create an array to manage printing operations.
- * @flags:  Calculates active flags
+ * @flags:  Compute the active flags
  * @width: acquire width.
  * @precision: Precision specification
  * @size: Size specifier
