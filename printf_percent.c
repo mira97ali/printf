@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_percent - Prints a percent sign
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
- * @precision: Precision specification
+ * print_percent - Output a percent sign.
+ * @types: Lista of arguments.
+ * @buffer: Create an array to manage printing operations.
+ * @flags:  Compute the active flags.
+ * @width: aqcuire width.
+ * @precision: Precision specification.
  * @size: Size specifier
  * Return: Number of chars printed
  */
