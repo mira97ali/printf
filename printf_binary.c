@@ -3,7 +3,7 @@
 /**
  * print_binary - Prints an unsigned number
  * @types: Lista of arguments
- * @buffer: Buffer array to handle print
+ * @buffer: Create an array to manage printing operations
  * @flags:  Calculates active flags
  * @width: acquire width.
  * @precision: Precision specification
