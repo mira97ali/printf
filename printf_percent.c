@@ -8,7 +8,7 @@
  * @width: aqcuire width.
  * @precision: Precision specification.
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Count the number of characters that have been printed.
  */
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
