@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * write_number - Prints a string
  * @is_negative: Lista of arguments
