@@ -2,7 +2,7 @@
 
 /**
  * print_int - Print integer
- * @types: Lists of arguments
+ * @types: List of arguments
  * @buffer: Create an array to manage printing operations.
  * @flags:  Compute the active flags
  * @width: acquire width.
