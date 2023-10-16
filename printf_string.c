@@ -2,7 +2,7 @@
 
 /**
  * print_string - Output a string
- * @types: List  of arguments
+ * @types: List of arguments
  * @buffer: Create an array to manage printing operations
  * @flags:  Calculates active flags
  * @width: aqcuire width.
