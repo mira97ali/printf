@@ -3,7 +3,7 @@
 /**
  * print_string - Output a string
  * @types: List  of arguments
- * @buffer: Buffer array to handle print
+ * @buffer: Create an array to manage printing operations
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
