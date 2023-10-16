@@ -39,7 +39,7 @@ int print_string(va_list types, char buffer[],
 		if (flags & F_MINUS)
 		{
 			write(1, &str[0], length);
-			for (i = width - length; i > 0; i--)
+			for (i = width - length; v > 0; v--)
 				write(1, " ", 1);
 			return (width);
 		}
