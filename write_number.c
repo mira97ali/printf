@@ -46,6 +46,7 @@ int write_number(int is_negative, int ind, char buffer[],
  *
  * Return: Number of printed chars.
  */
+
 int write_num(int ind, char buffer[],
 	int flags, int width, int prec,
 	int length, char padd, char extra_c)
@@ -64,6 +65,7 @@ int write_num(int ind, char buffer[],
 		length++;
 	if (width > length)
 	{
+		int i;
 		for (i = 1; i < width - length + 1; i++)
 			buffer[i] = padd;
 		buffer[i] = '\0';
