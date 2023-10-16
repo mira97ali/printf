@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_hexa - Prints a hexadecimal number in lower or upper
  * @types: Lista of arguments
