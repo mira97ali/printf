@@ -6,7 +6,7 @@
 | ---------------------------------------------  | ------------------------------------------------------- |
 | [✅] [_printf.c]                                |Entry point                                             |
 | [✅] [print_hexa.c]                             |prints a hexadecimal number in lower or upper           |
-| [✅] [print_hexa_upper.c]                       |here an unsigned number in upper hexadecimal notation |
+| [✅] [print_hexa_upper.c]                       |prints an unsigned number in upper hexadecimal notation |
 | [✅] [print_hexadecimal.c]                      |here an unsigned number in hexadecimal notation       |
 | [✅] [print_rot13string.c]                      |here a string in rot13                                |
 | [✅] [printf_percent.c]                         |here a percentage symbol                              |
