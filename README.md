@@ -15,7 +15,7 @@
 | [✅] [printf_char.c]                            |here a single character                               |
 | [✅] [print_non_printable.c]                    | ascii codes in hexa of non printable chars       |
 | [✅] [printf_integer.c]                         | an integer                                       |
-| [✅] [print_octal.c]                            |prints octal represetation                              |
+| [✅] [print_octal.c]                            | octal represetation                              |
 | [✅] [print_pointer.c]                          |prints a pointer                                        |
 | [✅] [printf_reverse.c]                         |prints in reverse                                       |
 | [✅] [printf_string.c]                          |prints a string                                         |
