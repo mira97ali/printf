@@ -19,7 +19,7 @@
 | [✅] [print_pointer.c]                          | a pointer                                        |
 | [✅] [printf_reverse.c]                         | in reverse                                       |
 | [✅] [printf_string.c]                          | a string                                         |
-| [✅] [printf_unsigned.c]                        |prints an unsigned integer                              |
+| [✅] [printf_unsigned.c]                        | an unsigned integer                              |
 | [✅] [write_handlers.c]                         |selects appropriate handler                             |
 
 
