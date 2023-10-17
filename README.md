@@ -3,20 +3,24 @@
 ## Files
 
 | File                                           | Description                                             |
-| :--------------------------------------------- | ------------------------------------------------------- |
-| [✅] [_printf.c](./printf.c)                   | Entry point.                                            |
-| [✅] [_putchar.c](./_putchar.c)                | Implementation of the `putchar`.                        |
-| [✅] [main.h](./main.h)                        | Header file containing all prototypes for `_printf`.    |
-| [✅] [printf_binary.c](./printf_binary.c)      | prints binary represetation using `%b`.                 |
-| [✅] [printf_char.c](./printf_char.c)          | prints a single character using `%c`.                   |
-| [✅] [printf_hex.c](./printf_hex.c)            | prints hexadecimal represetation using `%x` and `%X`.   |
-| [✅] [printf_integer.c](./printf_integer.c)    | prints an integer using `%d` and `%i`.                  |
-| [✅] [printf_octal.c](./printf_octal.c)        | prints octal represetation using `%o`.                  |
-| [✅] [printf_pointer.c](./printf_pointer.c)    | prints a pointer using `%p`.                            |
-| [✅] [printf_reverse.c](./printf_reverse.c)    | prints in reverse using `%r`.                           |
-| [✅] [printf_string.c](./printf_string.c)      | prints a string suing `%s`.                             |
-| [✅] [printf_unsigned.c](./printf_unsigned.c)  | prints an unsigned integer using `%u`.                  |
-| [✅] [switch.c](./switch.c)                    | selects appropriate handler.                            |
+| ---------------------------------------------  | ------------------------------------------------------- |
+| [✅] [_printf.c]                                |Entry point                                             |
+| [✅] [print_hexa.c]                             |prints a hexadecimal number in lower or upper           |
+| [✅] [print_hexa_upper.c]                       |prints an unsigned number in upper hexadecimal notation |
+| [✅] [print_hexadecimal.c]                      |prints an unsigned number in hexadecimal notation       |
+| [✅] [print_rot13string.c]                      |prints a string in rot13                                |
+| [✅] [printf_percent.c]                         |Prints a percentage symbol                              |
+| [✅] [main.h]                                   |A Header file that includes all functions prototypes    |
+| [✅] [printf_binary.c]                          |prints binary represetation                             |
+| [✅] [printf_char.c]                            |prints a single character                               |
+| [✅] [print_non_printable.c]                    |prints ascii codes in hexa of non printable chars       |
+| [✅] [printf_integer.c]                         |prints an integer                                       |
+| [✅] [print_octal.c]                            |prints octal represetation                              |
+| [✅] [print_pointer.c]                          |prints a pointer                                        |
+| [✅] [printf_reverse.c]                         |prints in reverse                                       |
+| [✅] [printf_string.c]                          |prints a string                                         |
+| [✅] [printf_unsigned.c]                        |prints an unsigned integer                              |
+| [✅] [write_handlers.c]                         |selects appropriate handler                             |
 
 
 ## Teammates
