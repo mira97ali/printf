@@ -18,7 +18,7 @@
 | [✅] [print_octal.c]                            |prints octal represetation                              |
 | [✅] [print_pointer.c]                          |prints a pointer                                        |
 | [✅] [printf_reverse.c]                         |prints in reverse                                       |
-| [✅] [printf_string.c]                          |here a string                                         |
+| [✅] [printf_string.c]                          |pritns a string                                         |
 | [✅] [printf_unsigned.c]                        |here an unsigned integer                              |
 | [✅] [write_handlers.c]                         |selects appropriate handler                             |
 
