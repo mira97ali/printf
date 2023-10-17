@@ -5,7 +5,7 @@
 | File                                           | Description                                             |
 | ---------------------------------------------  | ------------------------------------------------------- |
 | [✅] [_printf.c]                                |Entry point                                             |
-| [✅] [print_hexa.c]                             |prints a hexadecimal number in lower or here           |
+| [✅] [print_hexa.c]                             |prints a hexadecimal number in lower or upper           |
 | [✅] [print_hexa_upper.c]                       |prints an unsigned number in upper hexadecimal notation |
 | [✅] [print_hexadecimal.c]                      |prints an unsigned number in hexadecimal notation       |
 | [✅] [print_rot13string.c]                      |prints a string in rot13                                |
