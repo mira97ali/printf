@@ -9,7 +9,7 @@
 | [✅] [print_hexa_upper.c]                       |prints an unsigned number in upper hexadecimal notation |
 | [✅] [print_hexadecimal.c]                      |prints an unsigned number in hexadecimal notation       |
 | [✅] [print_rot13string.c]                      |prints a string in rot13                                |
-| [✅] [printf_percent.c]                         |here a percentage symbol                              |
+| [✅] [printf_percent.c]                         |prints a percentage symbol                              |
 | [✅] [main.h]                                   |A Header file that includes all functions prototypes    |
 | [✅] [printf_binary.c]                          |here binary represetation                             |
 | [✅] [printf_char.c]                            |here a single character                               |
