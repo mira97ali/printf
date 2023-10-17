@@ -11,7 +11,7 @@
 | [✅] [print_rot13string.c]                      |prints a string in rot13                                |
 | [✅] [printf_percent.c]                         |prints a percentage symbol                              |
 | [✅] [main.h]                                   |A Header file that includes all functions prototypes    |
-| [✅] [printf_binary.c]                          |here binary represetation                             |
+| [✅] [printf_binary.c]                          |prints binary represetation                             |
 | [✅] [printf_char.c]                            |here a single character                               |
 | [✅] [print_non_printable.c]                    |here ascii codes in hexa of non printable chars       |
 | [✅] [printf_integer.c]                         |here an integer                                       |
